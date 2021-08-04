@@ -30,4 +30,11 @@ Once you have the template unzip, go ahead and open ./index.html in both a web b
 3. Line 48 - Insert your avatar picture here
 4. Line 49 - Change the name
 5. Lines 51 - 51 - These are links to social media or other sites. In the default they do not have a hyperlink. For your page you will need to add that like so: `<a href="https://github.com/DanGilbertTX" target="_blank" class="github"><i class="bx bxl-github"></i></a>`
-6. 
+6. Navbar starts at line 59. The href is the hotlink to each section. The ***i class*** is the icon show. iPortfolio comes with *boxicons* by default. If you want anything else you will need to add them on your own. I added fontawesome to my site for some of the icons later on. 
+
+
+#### Background image in the Hero section (main background picture you see)
+
+You will need to open the ./assets/css/style.css file. The **Hero Section** starts at line 211. The background itself is line 216. Download an appropriate picture and put it in the ./assets/img/ folder and then change the line in the style.css file.
+
+As for what background to choose. That is up to you. There are a lot of free images on https://pixabay.com/. I searched for "*cloud computing*" on there and found some images I liked. Tested each one out to see how it looked. You will want to get a picture that is at least 1920x1080 so that it scales up or down well. A lower resolution picture will look really bad on a high resolution (49" ultra-wide for instance) monitor. 
