@@ -23,6 +23,11 @@ The end result will be something like this site (but hopefully much, MUCH better
 
 Once you have the template unzip, go ahead and open ./index.html in both a web browers (so you can see changes) and in your text editor. Alternatively, you can steal my index.html page if you want. Just view source/view page source on that site and it will open up the index.html in the browser. Copy/paste it in to your text editor and start making changes there.
 
-#### Other than content changes, here are specific items you will need to change:
+#### Other than content changes, here are specific items you will need to change (line numbers are the stock index.html):
 
-1. 
+1. Line 8 - Change the title to something personal 
+2. Lines 13 & 14 - Change the favicon (what shows up in the browser tab before the page title) to whatever you want. Regular is 32x32 and Apple Touch is 180x180
+3. Line 48 - Insert your avatar picture here
+4. Line 49 - Change the name
+5. Lines 51 - 51 - These are links to social media or other sites. In the default they do not have a hyperlink. For your page you will need to add that like so: `<a href="https://github.com/DanGilbertTX" target="_blank" class="github"><i class="bx bxl-github"></i></a>`
+6. 
