@@ -10,12 +10,19 @@ You will need several things to create a digital resume. In no particular order,
 * Time and patience
 
 
+
 The end result will be something like this site (but hopefully much, MUCH better): https://burninggnome.net/
 
-To start, download whatever template you want to your local computer and unzip it. Assuming you are using iPortfolio from the link above, the following files/directories are the ones you will be working with:
+#####To start, download whatever template you want to your local computer and unzip it. Assuming you are using iPortfolio from the link above, the following files/directories are the ones you will be working with:
 
   * ./index.html
   * ./assets/img/
   * ./assets/css/style.css
   * ./forms/contact.php *`If you buy the template and want to use the contact form`*
 
+
+Once you have the template unzip, go ahead and open ./index.html in both a web browers (so you can see changes) and in your text editor. Alternatively, you can steal my index.html page if you want. Just view source/view page source on that site and it will open up the index.html in the browser. Copy/paste it in to your text editor and start making changes there.
+
+#####Other than content changes, here are specific items you will need to change:
+
+1. 
