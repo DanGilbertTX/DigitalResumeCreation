@@ -17,5 +17,5 @@ To start, download whatever template you want to your local computer and unzip i
 * ./index.html
 * ./assets/img/
 * ./assets/css/style.css
-* ./forms/contact.php `If you buy the template and want to use the contact form`
+* ./forms/contact.php *`If you buy the template and want to use the contact form`*
 
