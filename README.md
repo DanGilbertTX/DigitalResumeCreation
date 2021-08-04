@@ -8,3 +8,14 @@ You will need several things to create a digital resume. In no particular order,
 * A background image you want to use; should be 1920x1080 for proper scaling
 * Some personal pictures and your resume
 * Time and patience
+
+
+The end result will be something like this site (but hopefully much, MUCH better): https://burninggnome.net/
+
+To start, download whatever template you want to your local computer and unzip it. Assuming you are using iPortfolio from the link above, the following files/directories are the ones you will be working with:
+
+* ./index.html
+* ./assets/img/
+* ./assets/css/style.css
+* ./forms/contact.php `If you buy the template and want to use the contact form`
+
