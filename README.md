@@ -26,13 +26,20 @@ Once you have the template unzip, go ahead and open ./index.html in both a web b
 #### Other than content changes, here are specific items you will need to change (line numbers are the stock index.html) in the index.html file:
 
 1. Line 8 - Change the title to something personal 
-2. Lines 13 & 14 - Change the favicon (what shows up in the browser tab before the page title) to whatever you want. Regular is 32x32 and Apple Touch is 180x180
+2. Lines 13&14 - Change the favicon (what shows up in the browser tab before the page title) to whatever you want. Regular is 32x32 and Apple Touch is 180x180
 3. Line 48 - Insert your avatar picture here
 4. Line 49 - Change the name
-5. Lines 51 - 51 - These are links to social media or other sites. In the default they do not have a hyperlink. For your page you will need to add that like so: `<a href="https://github.com/DanGilbertTX" target="_blank" class="github"><i class="bx bxl-github"></i></a>`
+5. Lines 51-55 - These are links to social media or other sites. In the default they do not have a hyperlink. For your page you will need to add that like so: `<a href="https://github.com/DanGilbertTX" target="_blank" class="github"><i class="bx bxl-github"></i></a>`
 6. Navbar starts at line 59. The href is the hotlink to each section. The ***i class*** is the icon show. iPortfolio comes with *boxicons* by default. If you want anything else you will need to add them on your own. I added fontawesome to my site for some of the icons later on. 
-7. 
-
+  * NOTE: If you change a Navbar section name, make sure it matches up to the Section heading for the item later on in the index.html file.
+8. Line 75 - Change the name
+9. Line 76 - These are the adjectives that get typed out on the main (Hero) page. Change them to whatever you want. You can even change the *"I'm"* to something like *"Professional"* or *"Super Awesome Bad-ass doing"
+10. Line 88 - Change this part of the About section to say something about yourself
+11. Line 96-121 - Say more about yourself
+12. Line 134-168 is the *"Facts"* section. I change it to *"Project Highlights"* and another changed it to *"Experience"*
+13. 
+* Bonus #1: ***IF*** you are adding custom icons (say FontAwesome for instance), you will need to add the link to the .css file for it in the *Vendor CSS Files* section starting at line 19. 
+* Bonus #2: 
 
 #### Background image in the Hero section (main background picture you see)
 
