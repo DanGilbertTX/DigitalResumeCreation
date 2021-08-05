@@ -61,7 +61,7 @@ As for what background to choose. That is up to you. There are a lot of free ima
 
 
 ### Animate and style button
-`/* Animate and style button */
+```/* Animate and style button */
 #resume > a {
   display: flex;
   margin: 0 12.5%;
@@ -92,4 +92,4 @@ As for what background to choose. That is up to you. There are a lot of free ima
 @-webkit-keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
 @-moz-keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
 @-ms-keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
-@keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}`
+@keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}```
