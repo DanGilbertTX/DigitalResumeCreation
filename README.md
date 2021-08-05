@@ -43,7 +43,7 @@ Once you have the template unzip, go ahead and open ./index.html in both a web b
 15. Line 627 starts to Footer. Per the licensing terms you cannot remove this section unless you buy the template. If you do buy it, I would remove it. You do you though. 
 
 * Bonus #1: ***IF*** you are adding custom icons (say FontAwesome for instance), you will need to add the link to the .css file for it in the *Vendor CSS Files* section starting at line 19. 
-* Bonus #2: 
+* Bonus #2: IF you want to add the flashing ***Download My Current Resume*** button you will need to add the code below (*Animate and style button*) to your style.css file in the at the bottom. Just paste in the code at the end of the file. 
 
 #### Background image in the Hero section (main background picture you see)
 
@@ -58,3 +58,38 @@ As for what background to choose. That is up to you. There are a lot of free ima
 * https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
   * Search here for for FA icons. 
 * To use FontAwesome you will need to download the free package. The latest package is here: https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
+
+
+### Animate and style button
+`/* Animate and style button */
+#resume > a {
+  display: flex;
+  margin: 0 12.5%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 48px;
+  box-shadow: 0 0 0 0 rgb(20 157 221);
+ 
+  -webkit-animation: resume-pulse 2.25s infinite cubic-bezier(0.54, 0, 0, 1);
+  -moz-animation: resume-pulse 2.25s infinite cubic-bezier(0.54, 0, 0, 1);
+  -ms-animation: resume-pulse 2.25s infinite cubic-bezier(0.54, 0, 0, 1);
+  animation: resume-pulse 2.25s infinite cubic-bezier(0.54, 0, 0, 1);
+}
+ 
+#resume > a > i {
+  padding: 0 12px;
+}
+ 
+/* Dont animate when mouse is on button */
+#resume > a:hover {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+ 
+@-webkit-keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes resume-pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}`
