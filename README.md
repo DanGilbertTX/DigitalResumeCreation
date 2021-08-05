@@ -43,7 +43,7 @@ As for what background to choose. That is up to you. There are a lot of free ima
 
 ## Helpful Links:
 * https://boxicons.com/?query=
- * You can see what they look like and keyword search. It will give you the name of the icon and you may have to play around to get the syntax right in the html.
+  * You can see what they look like and keyword search. It will give you the name of the icon and you may have to play around to get the syntax right in the html.
 * https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
- * Search here for for FA icons. 
+  * Search here for for FA icons. 
 * To use FontAwesome you will need to download the free package. The latest package is here: https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
