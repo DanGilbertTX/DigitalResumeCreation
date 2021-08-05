@@ -32,12 +32,16 @@ Once you have the template unzip, go ahead and open ./index.html in both a web b
 5. Lines 51-55 - These are links to social media or other sites. In the default they do not have a hyperlink. For your page you will need to add that like so: `<a href="https://github.com/DanGilbertTX" target="_blank" class="github"><i class="bx bxl-github"></i></a>`
 6. Navbar starts at line 59. The href is the hotlink to each section. The ***i class*** is the icon show. iPortfolio comes with *boxicons* by default. If you want anything else you will need to add them on your own. I added fontawesome to my site for some of the icons later on. 
   * NOTE: If you change a Navbar section name, make sure it matches up to the Section heading for the item later on in the index.html file.
-8. Line 75 - Change the name
-9. Line 76 - These are the adjectives that get typed out on the main (Hero) page. Change them to whatever you want. You can even change the *"I'm"* to something like *"Professional"* or *"Super Awesome Bad-ass doing"
-10. Line 88 - Change this part of the About section to say something about yourself
-11. Line 96-121 - Say more about yourself
-12. Line 134-168 is the *"Facts"* section. I change it to *"Project Highlights"* and another changed it to *"Experience"*
-13. 
+7. Line 75 - Change the name
+8. Line 76 - These are the adjectives that get typed out on the main (Hero) page. Change them to whatever you want. You can even change the *"I'm"* to something like *"Professional"* or *"Super Awesome Bad-ass doing"
+9. Line 88 - Change this part of the About section to say something about yourself
+10. Line 96-121 - Say more about yourself
+11. Line 134-168 is the *"Facts"* section. I change it to *"Project Highlights"* and another changed it to *"Experience"*
+12. Do the same for the ***Skills***, ***Resume***, ***Portfolio***, ***Services***, & ***Testimonials*** sections
+13. Line 560 starts the ***Contact*** section. This includes a Google Map link that you will want to change.
+14. Line 591 starts the Contact Form section. Please note that this will **NOT** work unless you buy the template. If you aren't buying the template then I would suggest removing the Contact Form.
+15. Line 627 starts to Footer. Per the licensing terms you cannot remove this section unless you buy the template. If you do buy it, I would remove it. You do you though. 
+
 * Bonus #1: ***IF*** you are adding custom icons (say FontAwesome for instance), you will need to add the link to the .css file for it in the *Vendor CSS Files* section starting at line 19. 
 * Bonus #2: 
 
